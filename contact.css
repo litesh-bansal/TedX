@@ -1,0 +1,25 @@
+.contact
+{
+    margin-top: 10px;
+    height: 330px;
+    height: 115vh;
+    display: block;
+    /* background-color: rgb(116, 139, 232); */
+    position: relative;
+    top: 0;
+}
+.contact::after
+{
+    position: relative;
+    top: 0;
+    content: "";
+    background-image:url('tedu.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+}
+.contact h2{
+    padding: 23px;
+}
