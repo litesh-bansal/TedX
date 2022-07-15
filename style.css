@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.font1
+{
+    font-family: var(--font1);
+}
+.font2
+{
+    font-family: var(--font2);
+}
+.navigation
+{
+    font-family: var(--font1);
+    /* height:74px; */
+    /* background-color:black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left
+{
+    font-size: 25px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 80px;
+}
+.nav-left ul li
+{
+    list-style: none; 
+    text-decoration: none; 
+}
+.nav-left ul li a{
+    text-decoration: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.1s ease-in-out;
+}
+.nav-left ul li a:hover
+{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.content
+{
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(116, 139, 232); */
+    position: relative;
+}
+.content::after
+{
+    content: "";
+    background-image:url('tedu.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+}
+.content-left h2
+{
+    padding: 18px;
+}
+.content-left p
+{
+    padding: 4px;
+    font-family: var(--font2);
+    font-size: larger;
+    font-weight: 200;
+    text-decoration: solid;
+    /* color: rgb(0, 0, 0); */
+}
+.content-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img
+{
+    height: 240px; 
+    margin-top: -26px; 
+    width:410px;
+    border: solid black;
+    border-width: 5px;
+    border-style: groove;
+}
+.blogs
+{
+    margin-top: 20px;
+    height: 330px;
+    padding-top: 12px;
+    /* background-color: red; */
+
+}
+.blogs h2
+{
+    text-align: center;
+    font-size: 300%;
+}
+.blog
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.blogimage
+{
+    margin-top: 6px;
+     /* width: 300px; */
+    /* height: 300px;  */
+    /* width: 30%; */
+}
+.blogcontent
+{
+    /* padding: 4px; */
+    /* align-self: center; */
+    /* margin-top: -40px; */
+    margin-left: 100px;
+    display: flex;
+    font-family: var(--font2);
+    font-size: larger;
+    flex-direction: column;
+    width: 100%
+}
+.blogcontent a{
+    text-decoration: none;
+}
+.blogcontent a:hover{
+    color: brown;
+    font-weight: lighter;
+}
+.blogs2
+{
+    /* background-color: violet; */
+    height: 340px;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.form-box
+{
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+.bttn
+{
+    cursor: pointer;
+}
+.bttn:hover
+{
+    color: var(--main-bg-color);
+    background-color: black;
+}
+
+.footer
+{
+    height: 55px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:orange;
+}
+.footer ul
+{
+    margin: 0 293px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer ul li a{
+    text-decoration: none;
+    margin: 0 14px;
+    transition:all 0.3s ease-in-out;
+
+}
+.footer ul li a:hover
+{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+    font-style: var(--font2);
+
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 295px; */
+    margin-top: 3px;
+}
+.about
+{
+    font-family: var(--font2);
+}
+.about1
+{
+    font-family: var(--font2);
+}
